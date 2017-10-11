@@ -1,0 +1,511 @@
+.console {
+	width: 100%;
+	padding: 0 0 30px 0;
+	margin: 0 auto;
+	text-align: center;
+  font-family: 'Open Sans', sans-serif;
+/*  background-color: #131313;*/
+  background-color: black;
+}
+.console h1 {
+	margin: 10px 0;
+	font-size: 50px;
+  font-weight:200;
+	color: #ffe81f;
+}
+.console button {
+	color: #ffe81f;
+	border: 1px solid #ffe81f;
+	padding: 5px 10px;
+	background: none;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	-moz-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+.console button:hover,
+.app .console button#app,
+.website .console button#website,
+.growth .console button#growth,
+.workshop .console button#workshop {
+	background: #ffe81f;
+/*	color: #131313;*/
+	color:black;
+}
+
+.stage {
+	width: 500px;
+	margin: 0 auto;
+}
+.main-stage {
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+@media screen and (max-width:550px) {
+  .main-stage {
+    transform:scale(0.5) translate(-125px, -250px);
+  }
+} 
+
+.stage-quote {
+	position: relative;
+	margin-bottom: 100px;
+}
+.stage-quote h2 {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 26px;
+	color: #ffe81f;
+	-moz-transition: 2s ease-in-out;
+	-o-transition: 2s ease-in-out;
+	-webkit-transition: 2s ease-in-out;
+	transition: 2s ease-in-out;
+}
+.app .quote-app,
+.website .quote-website,
+.growth .quote-growth,
+.workshop .quote-workshop {
+	visibility: visible;
+	opacity: 1;
+}
+
+.triangle {
+	position: absolute;
+	background-color: #ff00f5;
+}
+
+.t-1 {transition: 1.05s ease-out;}
+.t-2 {transition: 1.1s ease-out;}
+.t-3 {transition: 1.15s ease-out;}
+.t-4 {transition: 1.2s ease-out;}
+.t-5 {transition: 1.25s ease-out;}
+.t-6 {transition: 1.3s ease-out;}
+.t-7 {transition: 1.35s ease-out;}
+.t-8 {transition: 1.4s ease-out;}
+.t-9 {transition: 1.45s ease-out;}
+.t-10 {transition: 1.5s ease-out;}
+
+.t-11 {transition: 1.55s ease-out;}
+.t-12 {transition: 1.6s ease-out;}
+.t-13 {transition: 1.65s ease-out;}
+.t-14 {transition: 1.7s ease-out;}
+.t-15 {transition: 1.75s ease-out;}
+.t-16 {transition: 1.8s ease-out;}
+.t-17 {transition: 1.85s ease-out;}
+.t-18 {transition: 1.9s ease-out;}
+.t-19 {transition: 1.95s ease-out;}
+.t-20 {transition: 2s ease-out;}
+
+.t-21 {transition: 2.05s ease-out;}
+.t-22 {transition: 2.1s ease-out;}
+.t-23 {transition: 2.15s ease-out;}
+.t-24 {transition: 2.2s ease-out;}
+.t-25 {transition: 2.25s ease-out;}
+.t-26 {transition: 2.3s ease-out;}
+.t-27 {transition: 2.35s ease-out;}
+.t-28 {transition: 2.4s ease-out;}
+.t-29 {transition: 2.45s ease-out;}
+.t-30 {transition: 2.5s ease-out;}
+
+
+.glimmer .t-1,
+.glimmer .t-6,
+.glimmer .t-11,
+.glimmer .t-16,
+.glimmer .t-21,
+.glimmer .t-26 {animation: glimmer 1.5s;}
+
+.glimmer .t-2,
+.glimmer .t-7,
+.glimmer .t-12,
+.glimmer .t-17,
+.glimmer .t-22,
+.glimmer .t-27 {animation: glimmer 2s;}
+
+.glimmer .t-3,
+.glimmer .t-8,
+.glimmer .t-13,
+.glimmer .t-18,
+.glimmer .t-23,
+.glimmer .t-28 {animation: glimmer 2.5s;}
+
+.glimmer .t-4,
+.glimmer .t-9,
+.glimmer .t-14,
+.glimmer .t-19,
+.glimmer .t-24,
+.glimmer .t-29 {animation: glimmer 3s;}
+
+.glimmer .t-5,
+.glimmer .t-10,
+.glimmer .t-15,
+.glimmer .t-20,
+.glimmer .t-25,
+.glimmer .t-30 {animation: glimmer 3.5s;}
+
+
+@keyframes glimmer {
+	0% {opacity: 1;}
+	25% {opacity: 0.8;}
+	50% {opacity: 1;}
+	75% {opacity: 0.8;}
+}
+
+
+
+
+
+
+/* Rebel Pilot */
+
+.app .t-1 {left:62px; top: 105px; width:174px; height:290px; background-color:#3F3F3F;}
+.app .t-2 {left:263px; top: 105px; width:174px; height:290px; background-color:#3F3F3F;}
+.app .t-3 {left:68px; top:148px; width:162px; height:202px; background-color:#F0F0F0;}
+.app .t-4 {left:72px; top:152px; width:154px; height:154px; background-color:#3F3F3F;}
+.app .t-5 {left:126px; top:193px; width:49px; height:49px; background-color:#000000; transform:rotate(45deg);}
+.app .t-6 {left:99px; top:240px; width:102px; height:66px; background-color:#000000;}
+
+/*yellow*/
+.app .t-7 {left:68px; top: 122px; width:162px; height: 26px; background-color:#FFFF00;}
+
+.app .t-8 {left:75px; top: 280px; width:92px; height: 8px; background-color:#FFFFFF;}
+.app .t-9 {left:75px; top: 292px; width:82px; height: 6px; background-color:#FFFFFF;}
+
+.app .t-10 {left:68px; top: 350px; width:162px; height: 26px; background-color:#6E6E6E;}
+.app .t-11 {left:81px; top: 357px; width:16px; height: 12px; background-color:#FFFFFF;}
+.app .t-12 {left:120px; top: 357px; width:16px; height: 12px; background-color:#FFFFFF;}
+
+/*yellow*/
+.app .t-13 {left:72px; top: 313px; width:73px; height: 22px; background-color:#FFFF00;}
+
+.app .t-14 {left:196px; top: 357px; width:16px; height: 12px; background-color:#FFFFFF;}
+
+/*yellow*/
+.app .t-15 {left:153px; top: 313px; width:73px; height: 22px; background-color:#FFFF00;}
+
+.app .t-16 {left:160px; top: 357px; width:16px; height: 12px; background-color:#FFFFFF;}
+
+/*yellow*/
+.app .t-17 {left:269px; top: 122px; width:162px; height: 26px; background-color:#FFFF00;}
+
+.app .t-18 {left:269px; top: 148px; width:162px; height: 202px; background-color:#F0F0F0;}
+
+.app .t-19 {left:274px; top: 168px; width:44px; height: 44px; background-color:#3F3F3F;}
+.app .t-20 {left:322px; top: 168px; width:63px; height: 8px; background-color:#B9B9B9;}
+.app .t-21 {left:322px; top: 183px; width:101px; height: 4px; background-color:#6E6E6E;}
+.app .t-22 {left:322px; top: 191px; width:101px; height: 4px; background-color:#6E6E6E;}
+
+.app .t-23 {left:274px; top: 244px; width:50px; height: 50px; background-color:#2D2D2D;}
+.app .t-24 {left:325px; top: 244px; width:50px; height: 50px; background-color:#2D2D2D;}
+.app .t-25 {left:376px; top: 244px; width:50px; height: 50px; background-color:#2D2D2D;}
+.app .t-26 {left:274px; top: 295px; width:50px; height: 50px; background-color:#2D2D2D;}
+
+/*yellow*/
+.app .t-27 {left:274px; top: 217px; width:152px; height: 22px; background-color:#FFFF00;}
+
+.app .t-28 {left:325px; top: 295px; width:50px; height: 50px; background-color:#2D2D2D;}
+.app .t-29 {left:376px; top: 295px; width:50px; height:50px; background-color:#2D2D2D;}
+.app .t-30 {left:269px; top: 350px; width:162px; height:26px; background-color:#6E6E6E;}
+
+/*.app .t-11,
+.app .t-12,
+.app .t-22,
+.app .t-23 {background-color: #FFFFFF;}
+
+.app .t-5,
+.app .t-6,
+.app .t-7,
+.app .t-8,
+.app .t-17,
+.app .t-18,
+.app .t-27,
+.app .t-28 {background-color: #EEEEEE;}
+
+.app .t-3,
+.app .t-4,
+.app .t-24,
+.app .t-25,
+.app .t-26,
+.app .t-29,
+.app .t-30 {background-color: #A53038;}
+
+.app .t-1,
+.app .t-2,
+.app .t-19 {background-color: #4F4F4F;}
+
+.app .t-9,
+.app .t-10,
+.app .t-13,
+.app .t-14,
+.app .t-20,
+.app .t-21 {background-color: #FEB510;}
+
+.app .t-15,
+.app .t-16 {background-color: #FDBC2A;}
+
+*/
+
+/* Website */
+
+.website .t-1 {left:128px; top:26px; width:65px; height:145px; background-color:#D8D8D8;}
+.website .t-2 {left:192px; top:26px; width:180px; height:145px; background-color:#C7C7C7;}
+.website .t-3 {left:163px; top:66px; width:118px; height:13px; background-color:#000000;}
+.website .t-4 {left:163px; top:90px; width:98px; height:4px; background-color:#6E6E6E;}
+.website .t-5 {left:163px; top:99px; width:98px; height:4px; background-color:#6E6E6E;}
+
+.website .t-6 {left:163px; top:108px; width:98px; height:4px; background-color:#6E6E6E;}
+.website .t-7 {left:163px; top:124px; width:59px; height:13px; background-color:#ffff00;}
+
+.website .t-8 {left:128px; top:171px; width:244px; height:139px; background-color:#3F3F3F;}
+.website .t-9 {left:191px; top:191px; width:118px; height:13px; background-color:#ffffff;}
+
+.website .t-10 {left:201px; top:215px; width:98px; height:4px; background-color:#B9B9B9;}
+.website .t-11 {left:201px; top:223px; width:98px; height:4px; background-color:#B9B9B9;}
+
+.website .t-12 {left:161px; top:255px; width:21px; height:21px; background-color:#ffffff;}
+.website .t-13 {left:154px; top:281px; width:34px; height:4px; background-color:#ffff00;}
+.website .t-14 {left:240px; top:255px; width:21px; height:21px; background-color:#ffffff;}
+.website .t-15 {left:233px; top:281px; width:34px; height:4px; background-color:#ffff00;}
+.website .t-16 {left:319px; top:255px; width:21px; height:21px; background-color:#ffffff;}
+.website .t-17 {left:312px; top:281px; width:34px; height:4px; background-color:#ffff00;}
+
+.website .t-18 {left:128px; top:310px; width:244px; height:139px; background-color:#F0F0F0;}
+.website .t-19 {left:144px; top:328px; width:96px; height:57px; background-color:#C4C4C4;}
+.website .t-20 {left:261px; top:328px; width:96px; height:57px; background-color:#C4C4C4;}
+
+.website .t-21 {left:154px; top:343px; width:65px; height:4px; background-color:#3F3F3F;}
+.website .t-22 {left:271px; top:343px; width:65px; height:4px; background-color:#3F3F3F;}
+.website .t-23 {left:154px; top:357px; width:52px; height:4px; background-color:#6E6E6E;}
+.website .t-24 {left:154px; top:365px; width:52px; height:4px; background-color:#6E6E6E;}
+.website .t-25 {left:271px; top:365px; width:52px; height:4px; background-color:#6E6E6E;}
+.website .t-26 {left:271px; top:357px; width:52px; height:4px; background-color:#6E6E6E;}
+
+.website .t-27 {left:221px; top:404px; width:59px; height:13px; background-color:#FFFF00;}
+
+.website .t-28 {left:128px; top:449px; width:244px; height:26px; background-color:#2C2C2C;}
+
+.website .t-29 {left:225px; top: 459px; width:21px; height:3px; background-color:#FFFFFF;}
+.website .t-30 {left:254px; top: 459px; width:21px; height:3px; background-color:#FFFFFF;}
+
+/*
+.website .t-1,
+.website .t-2,
+.website .t-3,
+.website .t-4,
+.website .t-5,
+.website .t-6,
+.website .t-7,
+.website .t-8,
+.website .t-9,
+.website .t-10,
+.website .t-11,
+.website .t-12,
+.website .t-13,
+.website .t-14,
+.website .t-25 {background-color: #BE9664;}
+
+.website .t-15,
+.website .t-16,
+.website .t-17,
+.website .t-18,
+.website .t-19,
+.website .t-20,
+.website .t-21,
+.website .t-22,
+.website .t-23,
+.website .t-24 {background-color: #F7B6A0;}
+
+.website .t-26 {background-color: #F0A085;}
+
+.website .t-27,
+.website .t-28,
+.website .t-29,
+.website .t-30 {background-color: #FFFFFF;}
+*/
+
+/* Growth */
+
+.growth .t-1 {left:113px; top:300px; width:24px; height:11px;}
+.growth .t-2 {left:159px; top:297px; width:24px; height:14px;}
+.growth .t-3 {left:203px; top:293px; width:24px; height:18px;}
+.growth .t-4 {left:246px; top:284px; width:24px; height:27px;}
+.growth .t-5 {left:292px; top:278px; width:24px; height:33px;}
+.growth .t-6 {left:337px; top:264px; width:24px; height:47px;}
+
+.growth .t-7 {left:203px; top:282px; width:24px; height:11px;}
+
+.growth .t-8 {left:379px; top:253px; width:24px; height:58px;}
+
+.growth .t-9 {left:90px; top:311px; width:337px; height:4px; background-color:#6E6E6E;}
+.growth .t-10 {left:159px; top:290px; width:24px; height:7px;}
+.growth .t-11 {left:113px; top:293px; width:24px; height:7px;}
+.growth .t-12 {left:100px; top:339px; width:37px; height:75px; background-color:#FFFFFF; transform:rotate(-45deg);}
+
+.growth .t-13 {left:246px; top:264px; width:24px; height:20px;}
+
+/*no glimmer ! */
+.growth .t-14 {left:86px; top:406px; width:68px; height:33px;}
+
+.growth .t-15 {left:292px; top:219px; width:24px; height:59px;}
+
+/*no glimmer ! */
+.growth .t-16 {left:72px; top:346px; width:20px; height:33px;}
+
+.growth .t-17 {left:337px; top:140px; width:24px; height:124px;}
+
+/*no glimmer ! */
+.growth .t-18 {left:111px; top:349px; width:35px; height:33px; transform:rotate(45deg);}
+.growth .t-19 {left:269px; top:340px; width:66px; height:66px; background-color:#F0F0F0;}
+.growth .t-20 {left:181px; top:367px; width:59px; height:39px; background-color:#6E6E6E;}
+
+/*no glimmer ! */
+.growth .t-21 {left:190px; top:347px; width:42px; height:42px; background-color:#2D2D2D; transform:rotate(45deg);}
+.growth .t-22 {left:301px; top:351px; width:21px; height:9px;}
+.growth .t-23 {left:301px; top:351px; width:9px; height:55px;}
+.growth .t-24 {left:290px; top:372px; width:32px; height:9px;}
+
+
+.growth .t-25 {left:360px; top:340px; width:66px; height:66px;}
+
+.growth .t-26 {left:370px; top:363px; width:10px; height:36px; background-color:#FFFFFF;}
+
+.growth .t-27 {left:379px; top:61px; width:24px; height:192px;}
+
+.growth .t-28 {left:370px; top:349px; width:10px; height:10px; background-color:#FFFFFF;}
+.growth .t-29 {left:384px; top:363px; width:33px; height:36px; background-color:#FFFFFF;}
+.growth .t-30 {left:394px; top:373px; width:13px; height:26px;}
+
+
+.growth .t-1, 
+.growth .t-2,
+.growth .t-3,
+.growth .t-4,
+.growth .t-5,
+.growth .t-6,
+.growth .t-8,
+.growth .t-25,
+.growth .t-30 {background-color:#3F3F3F;}
+
+.growth .t-7,
+.growth .t-10,
+.growth .t-11,
+.growth .t-13,
+.growth .t-15,
+.growth .t-17,
+.growth .t-27 {background-color: #FFFF00;}
+
+.growth .t-14,
+.growth .t-16,
+.growth .t-18,
+.growth .t-22,
+.growth .t-23,
+.growth .t-24 {background-color: black;}
+
+/*
+.growth .t-9,
+.growth .t-10 {background-color: #888985;}
+
+.growth .t-11,
+.growth .t-13,
+.growth .t-15,
+.growth .t-17,
+.growth .t-19,
+.growth .t-29,
+.growth .t-30 {background-color: #2A3838;}
+
+.growth .t-12,
+.growth .t-14,
+.growth .t-16,
+.growth .t-18,
+.growth .t-20,
+.growth .t-21,
+.growth .t-22,
+.growth .t-23 {background-color: #202928;}
+*/
+/* workshop */
+
+.workshop .t-1 {left:68px; top:170px; width:37px; height:37px; background-color:#5C5C5C; transform:rotate(45deg);}
+.workshop .t-2 {left:281px; top:139px; width:148px; height:115px; background-color:#BDBDBD;}
+.workshop .t-3 {left:161px; top:170px; width:37px; height:37px; background-color:#5C5C5C; transform:rotate(45deg);}
+.workshop .t-4 {left:109px; top:207px; width:12px; height:68px; background-color:#3F3F3F;}
+.workshop .t-5 {left:50px; top:207px; width:12px; height:68px; background-color:#3F3F3F;}
+
+.workshop .t-6 {left:62px; top:275px; width:20px; height:68px; background-color:#3F3F3F;}
+.workshop .t-7 {left:256px; top:205px; width:17px; height:17px; background-color:#FFFF00;}
+.workshop .t-8 {left:89px; top:275px; width:20px; height:68px; background-color:#3F3F3F;}
+.workshop .t-9 {left:50px; top:343px; width:400px; height:3px; background-color:#B9B9B9;}
+.workshop .t-10 {left:302px; top:192px; width:17px; height:17px; background-color:#FFFF00;}
+
+.workshop .t-11 {left:332px; top:192px; width:17px; height:17px; background-color:#FFFF00;}
+.workshop .t-12 {left:62px; top:207px; width:47px; height:68px; background-color:#5C5C5C;}
+.workshop .t-13 {left:302px; top:163px; width:17px; height:17px; background-color:#FFFF00;}
+.workshop .t-14 {left:155px; top:275px; width:20px; height:68px; background-color:#3F3F3F;}
+.workshop .t-15 {left:332px; top:163px; width:17px; height:17px; background-color:#FFFF00;}
+
+.workshop .t-16 {left:155px; top:207px; width:47px; height:68px; background-color:#5C5C5C;}
+.workshop .t-17 {left:362px; top:163px; width:17px; height:17px; background-color:#FFFF00;}
+.workshop .t-18 {left:182px; top:275px; width:20px; height:68px; background-color:#3F3F3F;}
+
+.workshop .t-19 {left:305px; top:264px; width:12px; height:15px; background-color:#FFFFFF;}
+.workshop .t-20 {left:300px; top:267px; width:8px; height:8px; background-color:#FFFFFF;}
+.workshop .t-21 {left:302px; top:269px; width:3px; height:4px; background-color:#000000;}
+.workshop .t-22 {left:369px; top:276px; width:23px; height:3px; background-color:#FFFFFF;}
+.workshop .t-23 {left:202px; top:207px; width:58px; height:11px; background-color:#3F3F3F;}
+.workshop .t-24 {left:143px; top:207px; width:12px; height:68px; background-color:#3F3F3F;}
+.workshop .t-25 {left:278px; top:290px; width:151px; height:53px; background-color:#3F3F3F;}
+
+.workshop .t-26 {left:362px; top:192px; width:17px; height:17px; background-color:#FFFF00;}
+.workshop .t-27 {left:392px; top:163px; width:17px; height:17px; background-color:#FFFF00;}
+.workshop .t-28 {left:332px; top:221px; width:17px; height:17px; background-color:#FFFF00;}
+.workshop .t-29 {left:332px; top:274px; width:12px; height:5px; background-color:#FFFF00;}
+.workshop .t-30 {left:258px; top:279px; width:192px; height:11px; background-color:#3F3F3F;}
+
+/*
+.workshop .t-1,
+.workshop .t-12,
+.workshop .t-13,
+.workshop .t-14,
+.workshop .t-15,
+.workshop .t-16,
+.workshop .t-19,
+.workshop .t-20,
+.workshop .t-27 {background-color: #9A5F41;}
+
+.workshop .t-2,
+.workshop .t-3,
+.workshop .t-4,
+.workshop .t-5,
+.workshop .t-6,
+.workshop .t-9,
+.workshop .t-17,
+.workshop .t-18,
+.workshop .t-21,
+.workshop .t-22,
+.workshop .t-23,
+.workshop .t-24,
+.workshop .t-25,
+.workshop .t-26 {background-color: #744C33;}
+
+.workshop .t-7,
+.workshop .t-8,
+.workshop .t-10,
+.workshop .t-11,
+.workshop .t-28 {background-color: #2E2E2E;}
+
+.workshop .t-29,
+.workshop .t-30 {background-color: #FAF340;}
+*/
+
+
+
