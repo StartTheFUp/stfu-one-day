@@ -19,6 +19,6 @@ $(document).ready(function(){
 
   setInterval(function(){
     $(".anim-container").toggleClass("glimmer");
-  }, 3000);	
+  }, 3000);
 
 });

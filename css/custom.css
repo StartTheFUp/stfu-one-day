@@ -1,3 +1,19 @@
+#top-title {
+	font-weight: 500;
+	font-size: 3.5rem !important;
+	line-height: 1.3em !important;
+}
+
+@media screen and (max-width:550px) {
+	#top-title {
+		font-weight: 500;
+		font-size: 3rem !important;
+		line-height: 1.2em !important;
+		padding-bottom: 2rem;
+	}
+} 
+
+
 .stfu-community {
 	width: 100%;
 	text-align: center;
@@ -28,3 +44,46 @@ img.stfu-img {
 	font-size: 1.6rem;
 	padding: 5px;
 }
+
+
+nav.navbar {
+	background: transparent;
+}
+
+nav.navbar.shrink {
+	background-color: rgba(0,0,0,0.9);
+}
+
+nav img.stfu-logo {
+	max-height: 70px !important;
+	margin-top: -15px;
+	margin-bottom: -15px;
+	transition: 0.3s;
+}
+
+nav.navbar.shrink img.stfu-logo {
+	max-height: 50px !important;
+	margin-top:-25px;
+}
+
+#hero-section6 {
+
+    margin-top: 0px;
+}
+
+@media (max-width: 767px) {
+	#hero-section6 .container{
+	    padding-top: 64px;
+	}
+}
+
+@media (max-width: 991px){
+	#hero-section6 .container{
+	    padding-top: 82px;
+	}
+}
+
+#hero-section6 .container{
+    padding-top: 86px;
+}
+
