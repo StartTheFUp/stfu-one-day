@@ -73,12 +73,19 @@
 	position: relative;
 }
 @media screen and (max-width:550px) {
-  .main-stage {
-    transform:scale(0.5) translate(-125px, -250px);
-  }
-  .stage {
-  	height:270px;
-  }
+	.stage {
+		width: 100vw;
+	}
+	.main-stage-container {
+		width: 250px;
+		margin:0 auto;
+	}
+  	.main-stage {
+   		 transform:scale(0.5) translate(-250px, -250px);
+  	}
+  	.stage {
+  		height:270px;
+  	}
 } 
 
 
