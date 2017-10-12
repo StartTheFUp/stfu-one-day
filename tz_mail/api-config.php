@@ -19,9 +19,15 @@ define('ac_api_key','');
 define('ac_api_listid','');
 
 /* Custom Email Recipient email address &amp; Email subject line */
+<<<<<<< HEAD
 $tz_email = 'contact@startthefup.cp';
 $tz_from_email = 'contact@startthefup.co'; 
 $tz_subject = 'Hello Start The F*** Up';
+=======
+$tz_email = 'contact@startthefup.co';
+$tz_from_email = 'contact@startthefup.co'; 
+$tz_subject = 'STFU';
+>>>>>>> 27bdc2c2e673eec14aad3630f5377fa1e03f5e21
 
 
 /* Campaign Monitor API key and List ID. 
