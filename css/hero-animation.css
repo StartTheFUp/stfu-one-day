@@ -1,3 +1,17 @@
+#top-title {
+	font-weight: 500;
+	font-size: 3rem;
+}
+
+@media screen and (max-width:550px) {
+	#top-title {
+		font-weight: 500;
+		font-size: 3rem !important;
+		line-height: 1.2em !important;
+		padding-bottom: 2rem;
+	}
+} 
+
 .console {
 	width: 100%;
 	padding: 50px 0 0 0;
@@ -7,6 +21,17 @@
 /*  background-color: #131313;*/
   background-color: black;
 }
+@media screen and (max-width:550px) {
+	.anim-container {
+		margin-left: -15px;
+	}
+  .console {
+    width: 100vw;
+    margin:0;
+    padding-top: 0;
+  }
+} 
+
 .console h1 {
 	margin: 10px 0;
 	font-size: 50px;
@@ -51,7 +76,11 @@
   .main-stage {
     transform:scale(0.5) translate(-125px, -250px);
   }
+  .stage {
+  	height:270px;
+  }
 } 
+
 
 .stage-quote {
 	position: relative;
