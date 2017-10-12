@@ -1,6 +1,7 @@
 #top-title {
 	font-weight: 500;
-	font-size: 3rem;
+	font-size: 3.5rem !important;
+	line-height: 1.3em !important;
 }
 
 @media screen and (max-width:550px) {
