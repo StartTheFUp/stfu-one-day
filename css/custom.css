@@ -13,6 +13,12 @@
 	}
 } 
 
+#hero-section6 {
+	color:black;
+}
+
+
+
 
 .stfu-community {
 	width: 100%;
@@ -24,18 +30,23 @@
 	height: 150px;
 	display: inline-block;
 	position: relative;
+	overflow: hidden;
 }
 
 img.stfu-img {
 	height: 100%;
 	width: 100%;
+	transition: 0.2s;
+}
+img.stfu-img:hover {
+	transform: scale(1.1);
 }
 
 .stfu-img-container .stfu-subject {
 	position: absolute;
 	bottom: 5px;
 	right: 5px;
-	color:yellow;
+	color:#ffe200;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 600;
 	background: black;
@@ -45,13 +56,21 @@ img.stfu-img {
 	padding: 5px;
 }
 
+section {
+	border-bottom: 0;
+}
 
 nav.navbar {
 	background: transparent;
+	color: black;
 }
 
 nav.navbar.shrink {
-	background-color: rgba(0,0,0,0.9);
+	background-color: rgba(255,255,255,1);
+}
+
+nav.navbar.shrink-nav.shrink {
+    border-bottom: 1px solid rgba(255, 227, 0, 0.2);
 }
 
 nav img.stfu-logo {
@@ -85,5 +104,25 @@ nav.navbar.shrink img.stfu-logo {
 
 #hero-section6 .container{
     padding-top: 86px;
+}
+
+#new-hero {
+	height: 100vh;
+	background-color: black;
+}
+
+#new-hero .img-container {
+  position: absolute;
+  width:100px;
+  height: 100px;
+  left:calc(50% - 50px);
+  top:calc(50% - 50px);
+}
+
+#new-hero .img-container img {
+  height:100%;
+  width:100%;
+  object-fit:contain;
+  opacity:0.8;
 }
 

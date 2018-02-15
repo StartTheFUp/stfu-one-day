@@ -5,7 +5,7 @@
 	text-align: center;
   font-family: 'Open Sans', sans-serif;
 /*  background-color: #131313;*/
-  background-color: black;
+/* background-color: black;*/
 }
 @media screen and (max-width:550px) {
 	.anim-container {
@@ -22,16 +22,18 @@
 	margin: 10px 0;
 	font-size: 50px;
   font-weight:200;
-	color: #ffff00;
+	color: #ffe200;
 }
 .console button {
-	color: #ffe81f;
-	border: 1px solid #ffff00;
+/*	color: #ffe81f;*/
+	color: #ffe200;
+	border: 1px solid #ffe200;
+	border-radius: 20px;
 	padding: 5px 10px;
 	background: none;
 	cursor: pointer;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 16px;
 	-moz-transition: .2s ease-in-out;
     -o-transition: .2s ease-in-out;
@@ -44,19 +46,21 @@
 .growth .console button#growth,
 .workshop .console button#workshop {
 /*	background: #ffe81f;*/
-	background: #ffff00;
+	background: #ffe200;
 /*	color: #131313;*/
 	color:black;
+	transition: 0.2s;
 }
 
 .stage {
-	width: 500px;
+	width: 400px;
 	margin: 0 auto;
 }
 .main-stage {
 	width: 500px;
 	height: 500px;
 	position: relative;
+	left:-50px;
 }
 @media screen and (max-width:550px) {
 	.stage {
@@ -68,6 +72,7 @@
 	}
   	.main-stage {
    		 transform:scale(0.5) translate(-250px, -250px);
+   		 left:0;
   	}
   	.stage {
   		height:270px;
@@ -190,7 +195,7 @@
 
 
 
-/* Rebel Pilot */
+/* App */
 
 .app .t-1 {left:62px; top: 105px; width:174px; height:290px; background-color:#3F3F3F;}
 .app .t-2 {left:263px; top: 105px; width:174px; height:290px; background-color:#3F3F3F;}
@@ -200,7 +205,7 @@
 .app .t-6 {left:99px; top:240px; width:102px; height:66px; background-color:#000000;}
 
 /*yellow*/
-.app .t-7 {left:68px; top: 122px; width:162px; height: 26px; background-color:#FFFF00;}
+.app .t-7 {left:68px; top: 122px; width:162px; height: 26px; background-color:#ffe200;}
 
 .app .t-8 {left:75px; top: 280px; width:92px; height: 8px; background-color:#FFFFFF;}
 .app .t-9 {left:75px; top: 292px; width:82px; height: 6px; background-color:#FFFFFF;}
@@ -210,17 +215,17 @@
 .app .t-12 {left:120px; top: 357px; width:16px; height: 12px; background-color:#FFFFFF;}
 
 /*yellow*/
-.app .t-13 {left:72px; top: 313px; width:73px; height: 22px; background-color:#FFFF00;}
+.app .t-13 {left:72px; top: 313px; width:73px; height: 22px; background-color:#ffe200;}
 
 .app .t-14 {left:196px; top: 357px; width:16px; height: 12px; background-color:#FFFFFF;}
 
 /*yellow*/
-.app .t-15 {left:153px; top: 313px; width:73px; height: 22px; background-color:#FFFF00;}
+.app .t-15 {left:153px; top: 313px; width:73px; height: 22px; background-color:#ffe200;}
 
 .app .t-16 {left:160px; top: 357px; width:16px; height: 12px; background-color:#FFFFFF;}
 
 /*yellow*/
-.app .t-17 {left:269px; top: 122px; width:162px; height: 26px; background-color:#FFFF00;}
+.app .t-17 {left:269px; top: 122px; width:162px; height: 26px; background-color:#ffe200;}
 
 .app .t-18 {left:269px; top: 148px; width:162px; height: 202px; background-color:#F0F0F0;}
 
@@ -235,7 +240,7 @@
 .app .t-26 {left:274px; top: 295px; width:50px; height: 50px; background-color:#2D2D2D;}
 
 /*yellow*/
-.app .t-27 {left:274px; top: 217px; width:152px; height: 22px; background-color:#FFFF00;}
+.app .t-27 {left:274px; top: 217px; width:152px; height: 22px; background-color:#ffe200;}
 
 .app .t-28 {left:325px; top: 295px; width:50px; height: 50px; background-color:#2D2D2D;}
 .app .t-29 {left:376px; top: 295px; width:50px; height:50px; background-color:#2D2D2D;}
@@ -288,7 +293,7 @@
 .website .t-5 {left:163px; top:99px; width:98px; height:4px; background-color:#6E6E6E;}
 
 .website .t-6 {left:163px; top:108px; width:98px; height:4px; background-color:#6E6E6E;}
-.website .t-7 {left:163px; top:124px; width:59px; height:13px; background-color:#ffff00;}
+.website .t-7 {left:163px; top:124px; width:59px; height:13px; background-color:#ffe200;}
 
 .website .t-8 {left:128px; top:171px; width:244px; height:139px; background-color:#3F3F3F;}
 .website .t-9 {left:191px; top:191px; width:118px; height:13px; background-color:#ffffff;}
@@ -297,11 +302,11 @@
 .website .t-11 {left:201px; top:223px; width:98px; height:4px; background-color:#B9B9B9;}
 
 .website .t-12 {left:161px; top:255px; width:21px; height:21px; background-color:#ffffff;}
-.website .t-13 {left:154px; top:281px; width:34px; height:4px; background-color:#ffff00;}
+.website .t-13 {left:154px; top:281px; width:34px; height:4px; background-color:#ffe200;}
 .website .t-14 {left:240px; top:255px; width:21px; height:21px; background-color:#ffffff;}
-.website .t-15 {left:233px; top:281px; width:34px; height:4px; background-color:#ffff00;}
+.website .t-15 {left:233px; top:281px; width:34px; height:4px; background-color:#ffe200;}
 .website .t-16 {left:319px; top:255px; width:21px; height:21px; background-color:#ffffff;}
-.website .t-17 {left:312px; top:281px; width:34px; height:4px; background-color:#ffff00;}
+.website .t-17 {left:312px; top:281px; width:34px; height:4px; background-color:#ffe200;}
 
 .website .t-18 {left:128px; top:310px; width:244px; height:139px; background-color:#F0F0F0;}
 .website .t-19 {left:144px; top:328px; width:96px; height:57px; background-color:#C4C4C4;}
@@ -314,7 +319,7 @@
 .website .t-25 {left:271px; top:365px; width:52px; height:4px; background-color:#6E6E6E;}
 .website .t-26 {left:271px; top:357px; width:52px; height:4px; background-color:#6E6E6E;}
 
-.website .t-27 {left:221px; top:404px; width:59px; height:13px; background-color:#FFFF00;}
+.website .t-27 {left:221px; top:404px; width:59px; height:13px; background-color:#ffe200;}
 
 .website .t-28 {left:128px; top:449px; width:244px; height:26px; background-color:#2C2C2C;}
 
@@ -373,18 +378,16 @@
 .growth .t-9 {left:90px; top:311px; width:337px; height:4px; background-color:#6E6E6E;}
 .growth .t-10 {left:159px; top:290px; width:24px; height:7px;}
 .growth .t-11 {left:113px; top:293px; width:24px; height:7px;}
-.growth .t-12 {left:100px; top:339px; width:37px; height:75px; background-color:#FFFFFF; transform:rotate(-45deg);}
+.growth .t-12 {left:100px; top:339px; width:37px; height:75px; transform:rotate(-45deg);}
 
 .growth .t-13 {left:246px; top:264px; width:24px; height:20px;}
 
 /*no glimmer ! */
 .growth .t-14 {left:86px; top:406px; width:68px; height:33px;}
-
 .growth .t-15 {left:292px; top:219px; width:24px; height:59px;}
 
 /*no glimmer ! */
 .growth .t-16 {left:72px; top:346px; width:20px; height:33px;}
-
 .growth .t-17 {left:337px; top:140px; width:24px; height:124px;}
 
 /*no glimmer ! */
@@ -426,14 +429,17 @@
 .growth .t-13,
 .growth .t-15,
 .growth .t-17,
-.growth .t-27 {background-color: #FFFF00;}
+.growth .t-27 {background-color: #ffe200;}
 
-.growth .t-14,
+.growth .t-12,
 .growth .t-16,
-.growth .t-18,
 .growth .t-22,
 .growth .t-23,
 .growth .t-24 {background-color: black;}
+
+.growth .t-14, 
+.growth .t-16,
+.growth .t-18 {background-color: white;}
 
 /*
 .growth .t-9,
@@ -465,33 +471,33 @@
 .workshop .t-5 {left:50px; top:207px; width:12px; height:68px; background-color:#3F3F3F;}
 
 .workshop .t-6 {left:62px; top:275px; width:20px; height:68px; background-color:#3F3F3F;}
-.workshop .t-7 {left:256px; top:205px; width:17px; height:17px; background-color:#FFFF00;}
+.workshop .t-7 {left:256px; top:205px; width:17px; height:17px; background-color:#ffe200;}
 .workshop .t-8 {left:89px; top:275px; width:20px; height:68px; background-color:#3F3F3F;}
 .workshop .t-9 {left:50px; top:343px; width:400px; height:3px; background-color:#B9B9B9;}
-.workshop .t-10 {left:302px; top:192px; width:17px; height:17px; background-color:#FFFF00;}
+.workshop .t-10 {left:302px; top:192px; width:17px; height:17px; background-color:#ffe200;}
 
-.workshop .t-11 {left:332px; top:192px; width:17px; height:17px; background-color:#FFFF00;}
+.workshop .t-11 {left:332px; top:192px; width:17px; height:17px; background-color:#ffe200;}
 .workshop .t-12 {left:62px; top:207px; width:47px; height:68px; background-color:#5C5C5C;}
-.workshop .t-13 {left:302px; top:163px; width:17px; height:17px; background-color:#FFFF00;}
+.workshop .t-13 {left:302px; top:163px; width:17px; height:17px; background-color:#ffe200;}
 .workshop .t-14 {left:155px; top:275px; width:20px; height:68px; background-color:#3F3F3F;}
-.workshop .t-15 {left:332px; top:163px; width:17px; height:17px; background-color:#FFFF00;}
+.workshop .t-15 {left:332px; top:163px; width:17px; height:17px; background-color:#ffe200;}
 
 .workshop .t-16 {left:155px; top:207px; width:47px; height:68px; background-color:#5C5C5C;}
-.workshop .t-17 {left:362px; top:163px; width:17px; height:17px; background-color:#FFFF00;}
+.workshop .t-17 {left:362px; top:163px; width:17px; height:17px; background-color:#ffe200;}
 .workshop .t-18 {left:182px; top:275px; width:20px; height:68px; background-color:#3F3F3F;}
 
-.workshop .t-19 {left:305px; top:264px; width:12px; height:15px; background-color:#FFFFFF;}
-.workshop .t-20 {left:300px; top:267px; width:8px; height:8px; background-color:#FFFFFF;}
-.workshop .t-21 {left:302px; top:269px; width:3px; height:4px; background-color:#000000;}
-.workshop .t-22 {left:369px; top:276px; width:23px; height:3px; background-color:#FFFFFF;}
+.workshop .t-19 {left:305px; top:264px; width:12px; height:15px; background-color:#000000;}
+.workshop .t-20 {left:300px; top:267px; width:8px; height:8px; background-color:#000000;}
+.workshop .t-21 {left:302px; top:269px; width:3px; height:4px; background-color:#FFFFFF;}
+.workshop .t-22 {left:369px; top:276px; width:23px; height:3px; background-color:#000000;}
 .workshop .t-23 {left:202px; top:207px; width:58px; height:11px; background-color:#3F3F3F;}
 .workshop .t-24 {left:143px; top:207px; width:12px; height:68px; background-color:#3F3F3F;}
 .workshop .t-25 {left:278px; top:290px; width:151px; height:53px; background-color:#3F3F3F;}
 
-.workshop .t-26 {left:362px; top:192px; width:17px; height:17px; background-color:#FFFF00;}
-.workshop .t-27 {left:392px; top:163px; width:17px; height:17px; background-color:#FFFF00;}
-.workshop .t-28 {left:332px; top:221px; width:17px; height:17px; background-color:#FFFF00;}
-.workshop .t-29 {left:332px; top:274px; width:12px; height:5px; background-color:#FFFF00;}
+.workshop .t-26 {left:362px; top:192px; width:17px; height:17px; background-color:#ffe200;}
+.workshop .t-27 {left:392px; top:163px; width:17px; height:17px; background-color:#ffe200;}
+.workshop .t-28 {left:332px; top:221px; width:17px; height:17px; background-color:#ffe200;}
+.workshop .t-29 {left:332px; top:274px; width:12px; height:5px; background-color:#ffe200;}
 .workshop .t-30 {left:258px; top:279px; width:192px; height:11px; background-color:#3F3F3F;}
 
 /*

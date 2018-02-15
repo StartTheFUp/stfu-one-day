@@ -33,7 +33,7 @@ function Ball (startX, startY, startVelX, startVelY) {
   this.draw = function(ctx, can) {
     ctx.beginPath();
     ctx.globalAlpha = 0.1;
-    ctx.fillStyle = '#ffff00';
+    ctx.fillStyle = '#efd300';
     ctx.arc((0.5 + this.x) | 0, (0.5 + this.y) | 0, 3, 0, TAU, false);
     ctx.fill();
   }
@@ -66,7 +66,7 @@ function distMouse(ball) {
 
 function draw() {
   ctx.globalAlpha=1;
-  ctx.fillStyle = '#000000';
+  ctx.fillStyle = 'rgba(0,0,0,0)';
   ctx.fillRect(0,0,canvas.width, canvas.height);
   for (var index = 0; index < balls.length; index++) {
     var ball = balls[index];
@@ -76,7 +76,7 @@ function draw() {
       var ball2 = balls[index2];
       var dist = Math.hypot(ball.x - ball2.x, ball.y - ball2.y);
         if (dist < 100) {
-          ctx.strokeStyle = "#ffff00";
+          ctx.strokeStyle = "#efd300";
           ctx.globalAlpha = 0.2 - (dist > 100 ? .15 : dist / 1000);
           ctx.lineWidth = "1px";
           ctx.moveTo((0.5 + ball.x) | 0, (0.5 + ball.y) | 0);
