@@ -19,9 +19,6 @@
 	background-color:black;
 }
 
-
-
-
 .stfu-community {
 	width: 100%;
 	text-align: center;
@@ -32,15 +29,16 @@
 	height: 150px;
 	display: inline-block;
 	position: relative;
-	overflow: hidden;
+	margin:0.7rem;
 }
 
 img.stfu-img {
 	height: 100%;
 	width: 100%;
 	transition: 0.2s;
+	border-radius: 50%;
 }
-img.stfu-img:hover {
+.stfu-img-container:hover img.stfu-img {
 	transform: scale(1.1);
 }
 
@@ -56,6 +54,11 @@ img.stfu-img:hover {
 	text-transform: uppercase;
 	font-size: 1.6rem;
 	padding: 5px;
+	transition: 0.2s;
+}
+
+.stfu-img-container:hover .stfu-subject {
+	transform: translate(10px, 0);
 }
 
 section {
@@ -131,4 +134,52 @@ nav.navbar.shrink img.stfu-logo {
   object-fit:contain;
   opacity:0.8;
 }
+
+.case-studies-gallery {
+	position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    width: 95%;
+    max-width: 118rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.case-study-cont {
+	width: 20%;
+	padding:0 1%;
+}
+
+@media (max-width: 991px){
+	.case-study-cont {
+    	width: 50%;
+	}
+}	
+
+@media (max-width: 767px){
+	.grid li {
+    	width: 50%;
+	}
+}	
+
+.grid li {
+	width: 14%;
+	float: none;
+}
+
+@media (max-width: 991px){
+	.grid li {
+    	width: 30%;
+	}
+}	
+
+@media (max-width: 767px){
+	.grid li {
+    	width: 30%;
+	}
+}	
 

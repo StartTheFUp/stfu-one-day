@@ -1327,6 +1327,12 @@ figure:hover img { cursor: url("../images/icon/icon-zoom-white.png"), pointer; o
 /* portfolio grid - 5 column  */
 .work-5col .grid li { float: left; width: 20%;}
 
+/* portfolio grid - 6 column  */
+.work-6col .grid li { float: left; width: 16.66%;}
+
+/* portfolio grid - 7 column  */
+.work-7col .grid li { float: left; width: 14.28%;}
+
 /* portfolio grid - gutter */
 .gutter .grid-gallery ul { margin-left: -14px;}
 .gutter .grid li { padding: 0 0 14px 14px;}
