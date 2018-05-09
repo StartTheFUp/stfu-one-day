@@ -183,3 +183,7 @@ nav.navbar.shrink img.stfu-logo {
 	}
 }	
 
+.case-study-cont:nth-child(even) {
+	margin-top: 3rem;
+}
+
