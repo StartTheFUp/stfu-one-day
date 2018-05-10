@@ -240,6 +240,8 @@ h2:after {
 	text-transform: uppercase;
 }
 
-#start h3 {
-	text-align:right;
+@media (max-width: 767px) {
+	#start h3 {
+		text-align:right;
+	}
 }
