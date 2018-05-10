@@ -207,9 +207,17 @@ nav.navbar.shrink img.stfu-logo {
 
 .section-title-large {
     font-size: 60px !important;
-    line-height: 66px;
+    line-height: 66px !important;
     display: inline-block;
 }
+
+@media (max-width: 767px) {
+	.xs-section-title-large {
+	    font-size: 40px !important;
+	    line-height: 40px !important;
+	}
+}
+
 
 h2 {
 	position: relative;
@@ -226,3 +234,12 @@ h2:after {
 	z-index: -1;
 }
 
+.offer-title {
+	font-family: Oswald, sans-serif;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+#start h3 {
+	text-align:right;
+}
