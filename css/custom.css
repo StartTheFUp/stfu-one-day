@@ -154,6 +154,12 @@ nav.navbar.shrink img.stfu-logo {
 	padding:0 1%;
 }
 
+@media (min-width: 991px){
+	.case-study-cont:nth-child(even) {
+		margin-top: 3rem;
+	}
+}
+
 @media (max-width: 991px){
 	.case-study-cont {
     	width: 50%;
@@ -181,9 +187,42 @@ nav.navbar.shrink img.stfu-logo {
 	.grid li {
     	width: 30%;
 	}
-}	
+}
 
-.case-study-cont:nth-child(even) {
-	margin-top: 3rem;
+#offres .feature-box:hover img {
+	opacity: 1;
+}
+
+#offres .feature-box-image {
+	background: transparent;
+}
+
+.case-study-cont .feature-box-image {
+	background: transparent;
+}
+
+.alt-font {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.section-title-large {
+    font-size: 60px !important;
+    line-height: 66px;
+    display: inline-block;
+}
+
+h2 {
+	position: relative;
+	z-index: 10;
+}
+h2:after {
+	content:"";
+	position: absolute;
+	left:-10px;
+	bottom:-5px;
+	height: 20px;
+	width:100px;
+	background-color: #ffe200;
+	z-index: -1;
 }
 
