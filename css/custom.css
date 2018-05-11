@@ -1,251 +1,52 @@
-#top-title {
-	font-weight: 500;
-	font-size: 3.5rem !important;
-	line-height: 1.3em !important;
-	color: white;
+#top-title{font-weight:500;font-size:3.5rem !important;line-height:1.3em !important;color:white;}
+@media screen and (max-width:550px){#top-title{font-weight:500;font-size:3rem !important;line-height:1.2em !important;padding-bottom:2rem;}
 }
-
-@media screen and (max-width:550px) {
-	#top-title {
-		font-weight: 500;
-		font-size: 3rem !important;
-		line-height: 1.2em !important;
-		padding-bottom: 2rem;
-	}
-} 
-
-#hero-section6 {
-	color:white;
-	background-color:black;
+#hero-section6{color:white;background-color:black;}
+.stfu-community{width:100%;text-align:center;}
+.stfu-img-container{width:150px;height:150px;display:inline-block;position:relative;margin:0.7rem;}
+img.stfu-img{height:100%;width:100%;transition:0.2s;border-radius:50%;}
+.stfu-img-container:hover img.stfu-img{transform:scale(1.1);}
+.stfu-img-container .stfu-subject{position:absolute;bottom:5px;right:5px;color:#ffe200;font-family:'Oswald', sans-serif;font-weight:600;background:black;padding:2px;text-transform:uppercase;font-size:1.6rem;padding:5px;transition:0.2s;}
+.stfu-img-container:hover .stfu-subject{transform:translate(10px, 0);}
+section{border-bottom:0;}
+nav.navbar{background:transparent;color:white;}
+nav.navbar a{color:white;}
+nav.navbar.shrink{background-color:rgba(0,0,0,1);}
+nav.navbar.shrink-nav.shrink{border-bottom:1px solid rgba(62, 62, 62, 0.2);}
+nav img.stfu-logo{max-height:70px !important;margin-top:-15px;margin-bottom:-15px;transition:0.3s;}
+nav.navbar.shrink img.stfu-logo{max-height:50px !important;margin-top:-25px;}
+#hero-section6{margin-top:0px;}
+@media (max-width:767px){#hero-section6 .container{padding-top:64px;}
 }
-
-.stfu-community {
-	width: 100%;
-	text-align: center;
+@media (max-width:991px){#hero-section6 .container{padding-top:82px;}
 }
-
-.stfu-img-container {
-	width: 150px;
-	height: 150px;
-	display: inline-block;
-	position: relative;
-	margin:0.7rem;
+#hero-section6 .container{padding-top:86px;}
+#new-hero{height:100vh;background-color:black;}
+#new-hero .img-container{position:absolute;width:100px;height:100px;left:calc(50% - 50px);top:calc(50% - 50px);}
+#new-hero .img-container img{height:100%;width:100%;object-fit:contain;opacity:0.8;}
+.case-studies-gallery{position:relative;display:-ms-flexbox;display:flex;width:95%;max-width:118rem;margin:0 auto;padding:0 1rem;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.case-study-cont{width:20%;padding:0 1%;}
+@media (min-width:991px){.case-study-cont:nth-child(even){margin-top:3rem;}
 }
-
-img.stfu-img {
-	height: 100%;
-	width: 100%;
-	transition: 0.2s;
-	border-radius: 50%;
+@media (max-width:991px){.case-study-cont{width:50%;}
 }
-.stfu-img-container:hover img.stfu-img {
-	transform: scale(1.1);
+@media (max-width:767px){.grid li{width:50%;}
 }
-
-.stfu-img-container .stfu-subject {
-	position: absolute;
-	bottom: 5px;
-	right: 5px;
-	color:#ffe200;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 600;
-	background: black;
-	padding: 2px;
-	text-transform: uppercase;
-	font-size: 1.6rem;
-	padding: 5px;
-	transition: 0.2s;
+.grid li{width:14%;float:none;}
+@media (max-width:991px){.grid li{width:30%;}
 }
-
-.stfu-img-container:hover .stfu-subject {
-	transform: translate(10px, 0);
+@media (max-width:767px){.grid li{width:30%;}
 }
-
-section {
-	border-bottom: 0;
+#offres .feature-box:hover img{opacity:1;}
+#offres .feature-box-image{background:transparent;}
+.case-study-cont .feature-box:hover img{opacity:1;}
+.case-study-cont .feature-box-image{background:transparent;}
+.alt-font{font-family:'Oswald', sans-serif !important;}
+.section-title-large{font-size:60px !important;line-height:66px !important;display:inline-block;}
+@media (max-width:767px){.xs-section-title-large{font-size:40px !important;line-height:40px !important;}
 }
-
-nav.navbar {
-	background: transparent;
-	color: white;
-}
-
-nav.navbar a {
-	color: white;
-}
-
-nav.navbar.shrink {
-	background-color: rgba(0,0,0,1);
-}
-
-nav.navbar.shrink-nav.shrink {
-    border-bottom: 1px solid rgba(62, 62, 62, 0.2);
-}
-
-nav img.stfu-logo {
-	max-height: 70px !important;
-	margin-top: -15px;
-	margin-bottom: -15px;
-	transition: 0.3s;
-}
-
-nav.navbar.shrink img.stfu-logo {
-	max-height: 50px !important;
-	margin-top:-25px;
-}
-
-#hero-section6 {
-
-    margin-top: 0px;
-}
-
-@media (max-width: 767px) {
-	#hero-section6 .container{
-	    padding-top: 64px;
-	}
-}
-
-@media (max-width: 991px){
-	#hero-section6 .container{
-	    padding-top: 82px;
-	}
-}
-
-#hero-section6 .container{
-    padding-top: 86px;
-}
-
-#new-hero {
-	height: 100vh;
-	background-color: black;
-}
-
-#new-hero .img-container {
-  position: absolute;
-  width:100px;
-  height: 100px;
-  left:calc(50% - 50px);
-  top:calc(50% - 50px);
-}
-
-#new-hero .img-container img {
-  height:100%;
-  width:100%;
-  object-fit:contain;
-  opacity:0.8;
-}
-
-.case-studies-gallery {
-	position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    width: 95%;
-    max-width: 118rem;
-    margin: 0 auto;
-    padding: 0 1rem;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-.case-study-cont {
-	width: 20%;
-	padding:0 1%;
-}
-
-@media (min-width: 991px){
-	.case-study-cont:nth-child(even) {
-		margin-top: 3rem;
-	}
-}
-
-@media (max-width: 991px){
-	.case-study-cont {
-    	width: 50%;
-	}
-}	
-
-@media (max-width: 767px){
-	.grid li {
-    	width: 50%;
-	}
-}	
-
-.grid li {
-	width: 14%;
-	float: none;
-}
-
-@media (max-width: 991px){
-	.grid li {
-    	width: 30%;
-	}
-}	
-
-@media (max-width: 767px){
-	.grid li {
-    	width: 30%;
-	}
-}
-
-#offres .feature-box:hover img {
-	opacity: 1;
-}
-
-#offres .feature-box-image {
-	background: transparent;
-}
-
-.case-study-cont .feature-box:hover img{
-	opacity: 1;
-}
-
-.case-study-cont .feature-box-image {
-	background: transparent;
-}
-
-.alt-font {
-    font-family: 'Oswald', sans-serif !important;
-}
-
-.section-title-large {
-    font-size: 60px !important;
-    line-height: 66px !important;
-    display: inline-block;
-}
-
-@media (max-width: 767px) {
-	.xs-section-title-large {
-	    font-size: 40px !important;
-	    line-height: 40px !important;
-	}
-}
-
-
-h2 {
-	position: relative;
-	z-index: 10;
-}
-h2:after {
-	content:"";
-	position: absolute;
-	left:-10px;
-	bottom:-5px;
-	height: 20px;
-	width:100px;
-	background-color: #ffe200;
-	z-index: -1;
-}
-
-.offer-title {
-	font-family: Oswald, sans-serif;
-	font-size: 2rem;
-	text-transform: uppercase;
-}
-
-@media (max-width: 767px) {
-	#start h3 {
-		text-align:right;
-	}
+h2{position:relative;z-index:10;}
+h2:after{content:"";position:absolute;left:-10px;bottom:-5px;height:20px;width:100px;background-color:#ffe200;z-index:-1;}
+.offer-title{font-family:Oswald, sans-serif;font-size:2rem;text-transform:uppercase;}
+@media (max-width:767px){#start h3{text-align:right;}
 }
