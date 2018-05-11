@@ -28,14 +28,16 @@
 /*	color: #ffe81f;*/
 	color: #ffe200;
 	border: 1px solid #ffe200;
-	border-radius: 20px;
+	border-radius: 2px;
 	padding: 5px 10px;
 	margin: 5px 2px;
 	background: none;
 	cursor: pointer;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
-	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
 	-moz-transition: .2s ease-in-out;
     -o-transition: .2s ease-in-out;
     -webkit-transition: .2s ease-in-out;
