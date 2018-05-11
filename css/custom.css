@@ -197,6 +197,10 @@ nav.navbar.shrink img.stfu-logo {
 	background: transparent;
 }
 
+.case-study-cont .feature-box:hover img{
+	opacity: 1;
+}
+
 .case-study-cont .feature-box-image {
 	background: transparent;
 }
